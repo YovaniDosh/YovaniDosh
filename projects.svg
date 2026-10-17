@@ -1,0 +1,97 @@
+<svg viewBox="0 0 1000 1180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Projects by JohanXT">
+  <style>
+    :root { --ink:#FFFFFF; }
+    .mono { font-family:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace; }
+    .row { opacity:0; animation:reveal .55s cubic-bezier(.2,.7,.2,1) forwards; }
+    .rule { stroke:var(--ink); stroke-width:1; }
+    .title { fill:var(--ink); font-size:17px; font-weight:700; letter-spacing:.8px; }
+    .copy { fill:var(--ink); font-size:12px; }
+    .meta { fill:var(--ink); font-size:11px; letter-spacing:.4px; }
+    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    .r1{animation-delay:.05s}.r2{animation-delay:.10s}.r3{animation-delay:.15s}.r4{animation-delay:.20s}.r5{animation-delay:.25s}
+    .r6{animation-delay:.30s}.r7{animation-delay:.35s}.r8{animation-delay:.40s}.r9{animation-delay:.45s}.r10{animation-delay:.50s}
+    @media (prefers-reduced-motion:reduce) { .row { animation:none; opacity:1; } }
+  </style>
+
+  <g class="mono">
+    <g class="row r1" transform="translate(0 20)">
+      <text class="title" x="48" y="24">01 / WORKLYN</text>
+      <text class="copy" x="48" y="49">Task-management platform evolving from a modular JavaScript frontend into a complete full-stack application.</text>
+      <text class="copy" x="48" y="68">Planned features include account authentication, task categories, nested subtasks and live dashboard metrics.</text>
+      <text class="meta" x="48" y="87">JAVASCRIPT · AUTHENTICATION · TASK MANAGEMENT · FULL-STACK</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r2" transform="translate(0 130)">
+      <text class="title" x="48" y="24">02 / FINORA</text>
+      <text class="copy" x="48" y="49">Personal finance application for tracking transactions, budgets, savings goals and financial projections.</text>
+      <text class="copy" x="48" y="68">Being rebuilt with modular JavaScript and a clear interface, with React introduced progressively as the application grows.</text>
+      <text class="meta" x="48" y="87">HTML · SCSS · JAVASCRIPT · PERSONAL FINANCE</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r3" transform="translate(0 240)">
+      <text class="title" x="48" y="24">03 / FMSOLUTIONS</text>
+      <text class="copy" x="48" y="49">Public collection of 100 Frontend Mentor challenges documenting progressive practice in interface development.</text>
+      <text class="copy" x="48" y="68">Focuses on responsive layouts, accessibility, reusable patterns and clear project-level documentation.</text>
+      <text class="meta" x="48" y="87">HTML · CSS · JAVASCRIPT · NPM · RESPONSIVE UI</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r4" transform="translate(0 350)">
+      <text class="title" x="48" y="24">04 / VENDAFLOW</text>
+      <text class="copy" x="48" y="49">Ecommerce analytics dashboard designed to centralize multichannel sales, starting with Mercado Livre.</text>
+      <text class="copy" x="48" y="68">Planned metrics cover daily sales, monthly revenue and profit, sales trends and future marketplace integrations.</text>
+      <text class="meta" x="48" y="87">REACT · BOOTSTRAP · SASS · ECOMMERCE ANALYTICS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r5" transform="translate(0 460)">
+      <text class="title" x="48" y="24">05 / CHECKSPEECH AI</text>
+      <text class="copy" x="48" y="49">Speech-focused product for transcription and AI-assisted voice analysis through external services.</text>
+      <text class="copy" x="48" y="68">Planned as a SaaS-style experience that can expand from its landing page into practical voice-processing tools.</text>
+      <text class="meta" x="48" y="87">REACT · VITE · BOOTSTRAP · SASS · SPEECH AI</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r6" transform="translate(0 570)">
+      <text class="title" x="48" y="24">06 / MAIZZONBELL</text>
+      <text class="copy" x="48" y="49">Multiproduct online store offering a diverse catalog designed to reach customers across different product categories.</text>
+      <text class="copy" x="48" y="68">Evolving into a marketplace with scalable product management, streamlined shopping experiences and opportunities for multiple sellers.</text>
+      <text class="meta" x="48" y="87">MULTIPRODUCT ECOMMERCE · MARKETPLACE · PRODUCT CATALOG · SCALABILITY</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r7" transform="translate(0 680)">
+      <text class="title" x="48" y="24">07 / MAIZON SECURITY</text>
+      <text class="copy" x="48" y="49">Defensive security toolkit combining price monitoring, HTTP header analysis and technical domain inventory.</text>
+      <text class="copy" x="48" y="68">Designed to track authorized assets, identify potential configuration issues and organize technical findings into reports.</text>
+      <text class="meta" x="48" y="87">PRICE WATCH · HEADER GUARD · DOMAIN INVENTORY · DEFENSIVE SECURITY</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r8" transform="translate(0 790)">
+      <text class="title" x="48" y="24">08 / KEYSPRINT</text>
+      <text class="copy" x="48" y="49">Typing practice application focused on improving speed, accuracy and consistency through short training sessions.</text>
+      <text class="copy" x="48" y="68">Tracks performance and progress to turn keyboard practice into a measurable learning experience.</text>
+      <text class="meta" x="48" y="87">TYPING PRACTICE · WPM · ACCURACY · PROGRESS TRACKING</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r9" transform="translate(0 900)">
+      <text class="title" x="48" y="24">09 / TRIVIA FULL STACK</text>
+      <text class="copy" x="48" y="49">Interactive quiz platform built around knowledge-based challenges and engaging question-and-answer sessions.</text>
+      <text class="copy" x="48" y="68">Planned features include topic-based quizzes, answer validation, scoring and performance tracking through a responsive interface.</text>
+      <text class="meta" x="48" y="87">FULL-STACK · QUIZ GAME · SCORING · PROGRESS TRACKING</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+
+    <g class="row r10" transform="translate(0 1010)">
+      <text class="title" x="48" y="24">10 / YAN</text>
+      <text class="copy" x="48" y="49">Long-term intelligent assistant envisioned for the Compañías Maizon ecosystem.</text>
+      <text class="copy" x="48" y="68">Future capabilities include workflow automation, system monitoring, alerts and analysis across compatible tools and services.</text>
+      <text class="meta" x="48" y="87">AI ASSISTANT · AUTOMATION · SYSTEM MONITORING · INTEGRATIONS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+  </g>
+</svg>

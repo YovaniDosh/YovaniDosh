@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1000 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Now: full-stack developer focused on cybersecurity and ecommerce at JohanXT">
+  <style>
+    :root { --bone: #FFFFFF; --rule: #FFFFFF; --accent: #FFFFFF; }
+    .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .belt { animation: belt 36s linear infinite; }
+    @keyframes belt { from{transform:translateX(0)} to{transform:translateX(-1680px)} }
+    @media (prefers-reduced-motion: reduce) { .belt { animation: none; } }
+  </style>
+
+  <line x1="0" y1="0.5" x2="1000" y2="0.5" stroke="var(--rule)"/>
+  <line x1="0" y1="63.5" x2="1000" y2="63.5" stroke="var(--rule)"/>
+
+  <g class="belt">
+    <text class="mono" x="60" y="38" font-size="13" letter-spacing="2">
+      <tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan>
+      <tspan fill="var(--bone)">FULL-STACK DEV · CYBER @ JOHANXT</tspan>
+      <tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+      <tspan fill="var(--bone)">FULL-STACK · ECOMMERCE &amp; SECURITY</tspan>
+      <tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+      <tspan fill="var(--bone)">WEB · ECOM · CYBER PROJECTS :)</tspan>
+      <tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+      <tspan fill="var(--bone)">OPEN TO INTERNSHIPS &amp; COLLABS</tspan>
+      <tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+    </text>
+    <text class="mono" x="1740" y="38" font-size="13" letter-spacing="2">
+      <tspan fill="var(--accent)">NOW&#160;&#160;&#9656;&#160;&#160;</tspan>
+      <tspan fill="var(--bone)">FULL-STACK DEV · CYBER @ JOHANXT</tspan>
+      <tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+      <tspan fill="var(--bone)">FULL-STACK · ECOMMERCE &amp; SECURITY</tspan>
+      <tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+      <tspan fill="var(--bone)">WEB · ECOM · CYBER PROJECTS :)</tspan>
+      <tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+      <tspan fill="var(--bone)">OPEN TO INTERNSHIPS &amp; COLLABS</tspan>
+      <tspan fill="var(--accent)">&#160;&#160;&#160;&#10038;&#160;&#160;&#160;</tspan>
+    </text>
+  </g>
+
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#000000" stop-opacity="1"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="mf"><rect width="52" height="64" fill="url(#fade)"/></mask>
+  </defs>
+  <rect width="52" height="64" mask="url(#mf)" fill="#FFFFFF"/>
+</svg>

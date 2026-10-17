@@ -1,0 +1,48 @@
+<svg viewBox="0 0 1000 92" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Section 08 — CONNECT WITH ME">
+  <style>
+    .mono {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .draw {
+      stroke: #A290B7;
+      stroke-width: 1.5;
+      stroke-dasharray: 480;
+      stroke-dashoffset: 480;
+      animation: drawLine 1.4s cubic-bezier(.65,0,.25,1) .15s forwards;
+    }
+    @keyframes drawLine {
+      to { stroke-dashoffset: 0; }
+    }
+    .fade {
+      opacity: 0;
+      animation: fadeIn .9s ease .05s forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    .pulse {
+      animation: softPulse 2.8s ease-in-out infinite;
+    }
+    @keyframes softPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.55; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .draw, .fade, .pulse { animation: none; }
+      .draw { stroke-dashoffset: 0; }
+      .fade { opacity: 1; }
+    }
+  </style>
+
+  <g class="fade">
+    <text class="mono" x="48" y="62" font-size="34" fill="#A290B780" letter-spacing="1">08</text>
+    
+    <text class="mono pulse" x="115" y="58" font-size="15" fill="#A290B7" letter-spacing="6">CONNECT WITH ME</text>
+    
+    <text class="mono" x="952" y="58" font-size="11" fill="#A290B780" letter-spacing="2.5" text-anchor="end">~/08-connect</text>
+  </g>
+
+  <!-- línea cerca de los textos pero sin cruzarlos -->
+  <line class="draw" x1="380" y1="53" x2="780" y2="53"/>
+  <circle class="fade" cx="788" cy="53" r="3.5" fill="#A290B7"/>
+</svg>

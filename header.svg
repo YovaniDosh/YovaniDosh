@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1000 452" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="JohanXT — Self-taught Full-Stack Developer; focus on full-stack systems, AI-integrated products and independent projects; learning backend and cybersecurity">
+  <style>
+    :root { --bone: #111111; --rule: #430A5D; --muted: #444444; --dim: #555555; --accent: #333333; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #FFFFFF; --rule: #f150c8; --muted: #DDDDDD; --dim: #BBBBBB; --accent: #EEEEEE; } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(12px); } to { opacity:1;transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .a1{animation-delay:.2s} .a2{animation-delay:.5s} .a3{animation-delay:.9s} .a4{animation-delay:1.2s} .a5{animation-delay:1.4s} .a6{animation-delay:1.7s}
+    .rot { opacity:0; animation: rot 12s linear infinite; }
+    .r1{animation-delay:1.7s} .r2{animation-delay:4.7s} .r3{animation-delay:7.7s} .r4{animation-delay:10.7s}
+    @keyframes rot { 0%{opacity:0} 1.5%{opacity:1} 18%{opacity:1} 20%{opacity:0} 100%{opacity:0} }
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.rise,.fade,.rot { animation: none; }
+      .draw{stroke-dashoffset:0} .rise,.fade{opacity:1} .rot{opacity:0} .rot.r1{opacity:1}
+    }
+
+  </style>
+
+  <line class="draw a1" x1="48" y1="58" x2="952" y2="58" stroke="#A290B7" stroke-width="1"/>
+  <g class="fade a1">
+    <text class="mono" fill="var(--muted)" x="48" y="44" font-size="11" letter-spacing="3.5">PORTFOLIO — INDEX Nº 001</text>
+    <text class="mono" fill="var(--muted)" x="952" y="44" font-size="11" letter-spacing="3.5" text-anchor="end">JOHANXT — WORK IN PROGRESS</text>
+  </g>
+
+  <g class="rise a2">
+    <text fill="var(--bone)" class="mono" x="500" y="176" text-anchor="middle" font-size="72" letter-spacing="-2">JohanXT</text>
+  </g>
+  <g class="fade a3">
+    <text fill="var(--muted)" class="mono" x="500" y="214" text-anchor="middle" font-size="19">Self-taught Full-Stack Developer.</text>
+  </g>
+
+  <g class="fade a4">
+  <text fill="var(--dim)" class="mono" x="48" y="274" font-size="12.5" letter-spacing="1">focus  ▸</text>
+  <text fill="var(--accent)" class="mono" x="128" y="274" font-size="12.5" letter-spacing="1">full-stack systems · AI-integrated products · independent projects</text>
+  <text fill="var(--accent)" class="mono" x="128" y="300" font-size="12.5" letter-spacing="1">accessible interfaces · mobile-first · semantic HTML · modular JS</text>
+  </g>
+  <g class="fade a5">
+    <text fill="var(--dim)" class="mono" x="48" y="326" font-size="12.5" letter-spacing="1">learning ▸ backend · APIs · Linux · cybersecurity</text>
+  </g>
+
+  <line class="draw a5" x1="48" y1="394" x2="952" y2="394" stroke="#A290B7" stroke-width="1"/>
+  <g class="fade a6">
+    <text fill="var(--muted)" class="mono" x="48" y="426" font-size="11.5" letter-spacing="3">FRONTEND</text>
+    <text fill="var(--accent)" class="mono" x="252" y="426" font-size="11.5">·</text>
+    <text fill="var(--muted)" class="mono" x="282" y="426" font-size="11.5" letter-spacing="3">BACKEND</text>
+    <text fill="var(--accent)" class="mono" x="550" y="426" font-size="11.5">·</text>
+    <text fill="var(--muted)" class="mono" x="580" y="426" font-size="11.5" letter-spacing="3">CYBERSECURITY</text>
+    <text fill="var(--muted)" class="mono" x="952" y="426" font-size="11.5" letter-spacing="1.5" text-anchor="end">LEARN · BUILD</text>
+  </g>
+</svg>

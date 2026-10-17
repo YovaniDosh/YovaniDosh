@@ -1,0 +1,54 @@
+<svg viewBox="0 0 720 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Working Principles">
+  <style>
+    .mono {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+    .line {
+      opacity: 0;
+      animation: fadeUp 0.8s cubic-bezier(.2,.7,.2,1) forwards;
+    }
+    .l1 { animation-delay: 0.15s; }
+    .l2 { animation-delay: 0.35s; }
+    .l3 { animation-delay: 0.55s; }
+    .l4 { animation-delay: 0.75s; }
+    .l5 { animation-delay: 0.95s; }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .prompt {
+      fill: #FFFFFF;
+    }
+    .text {
+      fill: #FFFFFF;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .line { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <g class="line l1">
+    <text class="mono prompt" x="32" y="48" font-size="16">&#62;</text>
+    <text class="mono text" x="56" y="48" font-size="16" letter-spacing="0.5">Understand, think, and write.</text>
+  </g>
+
+  <g class="line l2">
+    <text class="mono prompt" x="32" y="92" font-size="16">&#62;</text>
+    <text class="mono text" x="56" y="92" font-size="16" letter-spacing="0.5">Build for mobile first.</text>
+  </g>
+
+  <g class="line l3">
+    <text class="mono prompt" x="32" y="136" font-size="16">&#62;</text>
+    <text class="mono text" x="56" y="136" font-size="16" letter-spacing="0.5">Prioritize semantics and accessibility.</text>
+  </g>
+
+  <g class="line l4">
+    <text class="mono prompt" x="32" y="180" font-size="16">&#62;</text>
+    <text class="mono text" x="56" y="180" font-size="16" letter-spacing="0.5">Keep code clean and reusable.</text>
+  </g>
+
+  <g class="line l5">
+    <text class="mono prompt" x="32" y="224" font-size="16">&#62;</text>
+    <text class="mono text" x="56" y="224" font-size="16" letter-spacing="0.5">Test, document, and continuously improve.</text>
+  </g>
+</svg>
