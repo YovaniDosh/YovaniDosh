@@ -52,8 +52,8 @@ I'm also learning about **cybersecurity** and how to write more secure code. Eve
 </picture>
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/ecosystemJOHAN.svg"/>
-<img src="assets/ecosystemJOHAN.svg" alt="Project ecosystem"/>
+<source media="(prefers-color-scheme: dark)" srcset="assets/ecosystem.svg"/>
+<img src="assets/ecosystem.svg" alt="Project ecosystem"/>
 </picture>
 
 <picture>
@@ -82,18 +82,28 @@ I'm also learning about **cybersecurity** and how to write more secure code. Eve
 <img src="assets/s05.svg" alt="Project ecosystem"/>
 </picture>
 
+
+
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=YovaniDosh&show_icons=true&hide_border=true&rank_icon=github&title_color=A290B7&icon_color=A290B7&text_color=FFFFFF&bg_color=1A1A1D" alt="Yovani Dosh's GitHub statistics">
-
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YovaniDosh&layout=compact&hide_border=true&title_color=A290B7&text_color=FFFFFF&bg_color=1A1A1D" alt="Yovani Dosh's most used programming languages">
-
-  <img width="65%" src="https://streak-stats.demolab.com?user=YovaniDosh&hide_border=true&background=1A1A1D&stroke=A290B7&ring=A290B7&fire=A290B7&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=A290B7&sideLabels=A290B7&dates=FFFFFF" alt="Yovani Dosh's GitHub contribution streak">
+  <img
+    width="66%"
+    src="https://github-readme-stats.vercel.app/api?username=YovaniDosh&show_icons=true&hide_border=true&rank_icon=github&title_color=A290B7&icon_color=A290B7&text_color=FFFFFF&bg_color=1A1A1D&cache_seconds=21600"
+    alt="GitHub statistics"
+  />
 
   <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=A290B7&center=true&vCenter=true&width=650&height=50&lines=Building+my+professional+portfolio;Learning+JavaScript+and+SQL;Practicing+frontend+development;Documenting+my+progress"
-  alt="Building my professional portfolio"/>
+    width="66%"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YovaniDosh&layout=compact&hide_border=true&title_color=A290B7&text_color=FFFFFF&bg_color=1A1A1D&cache_seconds=21600"
+    alt="Most used programming languages"
+  />
 
+  <img
+    width="66%"
+    src="https://streak-stats.demolab.com?user=YovaniDosh&hide_border=true&background=1A1A1D&stroke=A290B7&ring=A290B7&fire=A290B7&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=A290B7&sideLabels=A290B7&dates=FFFFFF"
+    alt="GitHub contribution streak"
+  />
 </div>
+
 
 <hr>
 
