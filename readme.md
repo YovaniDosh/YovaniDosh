@@ -52,8 +52,8 @@ I'm also learning about **cybersecurity** and how to write more secure code. Eve
 </picture>
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="assets/ecosystem.svg"/>
-<img src="assets/ecosystem.svg" alt="Project ecosystem"/>
+<source media="(prefers-color-scheme: dark)" srcset="assets/ecosystemP.svg"/>
+<img src="assets/ecosystemP.svg" alt="Project ecosystem"/>
 </picture>
 
 <picture>
